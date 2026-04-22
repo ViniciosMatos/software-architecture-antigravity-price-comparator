@@ -230,3 +230,30 @@ header {
 .buy-button:hover {
     background: #e64a19;
 }
+
+/* Base de Pesquisa */
+.search-container {
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    width: 100%;
+    max-width: 600px;
+    padding: 1rem 1.5rem;
+    font-size: 1.1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 50px;
+    background: var(--card-bg);
+    color: var(--text-primary);
+    outline: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    font-family: inherit;
+}
+
+.search-input:focus {
+    border-color: var(--accent-secondary);
+    box-shadow: 0 4px 12px rgba(87, 45, 145, 0.1);
+}
